@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    background-color:rgb(66, 64, 64);
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+ul li {
+    display: inline-block;
+    margin-left:10px;
+}
+
+ul li:hover {
+    background-color:red;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.main-img {
+    height:300px;
+    background-image: url('../images/main.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center center;
+}
+
+.content {
+    width:80%;
+    margin: auto;
+    text-align:center;
+}
+
+.content h1 {
+    color: red;
+}
+.content p {
+    font-size:20px;
+}
+
+.content img {
+    width:300px;
+}
